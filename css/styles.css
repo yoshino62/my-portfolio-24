@@ -49,24 +49,24 @@ p {
   line-height: 2;
 }
 
-.about-section {
+.content-conteiner {
   padding: 120px 80px;
 }
 
-.about-section h1 {
+.content-conteiner h1 {
   font-size: 44px;
   font-weight: bold;
   line-height: 1.5;
 }
 
-.about-section h2 {
+.content-conteiner h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.about-section img {
+.content-conteiner img {
   width: 380px;
   border-radius: 4px;
   margin-left: 80px;
@@ -112,20 +112,20 @@ p {
     line-height: 1.5;
   }
 
-  .about-section {
+  .content-conteiner {
     padding: 80px 60px;
   }
 
-  .about-section h1 {
+  .content-conteiner h1 {
     font-size: 28px;
   }
 
-  .about-section h2 {
+  .content-conteiner h2 {
     font-size: 18px;
     line-height: 1.5;
   }
 
-  .about-section img {
+  .content-conteiner img {
     display: block;
     margin: 0 auto;
   }
