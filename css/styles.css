@@ -49,24 +49,35 @@ p {
   line-height: 2;
 }
 
-.content-conteiner {
+.content {
   padding: 120px 80px;
 }
 
-.content-conteiner h1 {
+.content h1 {
   font-size: 44px;
   font-weight: bold;
   line-height: 1.5;
 }
 
-.content-conteiner h2 {
+.content h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.content-conteiner img {
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+.content img {
   width: 380px;
   border-radius: 4px;
   margin-left: 80px;
@@ -112,20 +123,20 @@ p {
     line-height: 1.5;
   }
 
-  .content-conteiner {
+  .content {
     padding: 80px 60px;
   }
 
-  .content-conteiner h1 {
+  .content h1 {
     font-size: 28px;
   }
 
-  .content-conteiner h2 {
+  .content h2 {
     font-size: 18px;
     line-height: 1.5;
   }
 
-  .content-conteiner img {
+  .content img {
     display: block;
     margin: 0 auto;
   }
