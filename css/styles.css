@@ -24,7 +24,7 @@ h2 {
 }
 
 p {
-  font-size: 16ox;
+  font-size: 16px;
   font-weight: normal;
   line-height: 30px;
 }
@@ -47,6 +47,29 @@ p {
   font-size: 28px;
   font-weight: 300;
   line-height: 2;
+}
+
+.about-section {
+  padding: 120px 80px;
+}
+
+.about-section h1 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.about-section img {
+  width: 380px;
+  border-radius: 4px;
+  margin-left: 80px;
 }
 
 .btn-branding {
@@ -87,6 +110,24 @@ p {
   .hero h2 {
     font-size: 20px;
     line-height: 1.5;
+  }
+
+  .about-section {
+    padding: 80px 60px;
+  }
+
+  .about-section h1 {
+    font-size: 28px;
+  }
+
+  .about-section h2 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .about-section img {
+    display: block;
+    margin: 0 auto;
   }
 
   .project-description {
