@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="description" content="Yoshino is a front-end engineer based in the US.">
+    <title>Front-end developer | Yoshino Andrews</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -22,11 +23,36 @@
 </head>
 
 <body>
+
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="/" title="Homepage">
+                <p class="name-header d-none d-md-block">Yoshino Andrews</p>
+                <p class="name-header-small d-block d-md-none">YA</p>
+            </a>
+            <ul>
+                <li class="active">
+                    <a href="/" title="Homepage">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html" title="About Yoshino">About</a>
+                </li>
+                <li>
+                    <a href="/work.html" title="Yoshino's work">Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact Yoshino">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
     <div class="hero">
         <h1>Yoshino Andrews</h1>
         <h2 class="m-5">Front-end developer based in the US</h2>
         <div>
-            <a href="#" class="btn btn-branding">Contact me</a>
+            <a href="/contact.html" class="btn btn-branding" title="Contact Yoshino">Contact me</a>
         </div>
     </div>
 
@@ -50,7 +76,7 @@
                         ocean. A
                         small river named Duden flows by
                     </p>
-                    <a href="#" class="btn btn-branding-outline">Learn more</a>
+                    <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
                 </div>
             </div>
         </div>
@@ -69,7 +95,7 @@
                         ocean. A
                         small river named Duden flows by
                     </p>
-                    <a href="#" class="btn btn-branding-outline">Learn more</a>
+                    <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
                 </div>
             </div>
         </div>
@@ -89,11 +115,48 @@
                         ocean. A
                         small river named Duden flows by
                     </p>
-                    <a href="#" class="btn btn-branding-outline">Learn more</a>
+                    <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
                 </div>
             </div>
         </div>
+
+
     </div>
+
+    <div class="contact-box container d-flex justify-content-around m-5">
+        <div>
+            <h4>Work Inquiry</h4>
+            <p>Get in touch</p>
+        </div>
+
+        <div>
+            <a href="/contact.html" class="btn btn-branding" title="Contact Yoshino">Contact me</a>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <a href="mailto:yoshi62mkt@gmail.com" class="email-link" title="Email Yoshino">
+                yoshi62mkt@gmail.com
+            </a>
+        </div>
+        <div class="social-links">
+            <a href="mailto:yoshino62mkt@gmail.com" target="_blank" title="Email Yoshino">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/yoshino62" target="_blank" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+        </div>
+        <p>This project is coded by Yoshino, and it is open-sourced on
+            <a href="">GitHub</a> and hosted on Netlify
+        </p>
+    </footer>
+
 </body>
 
 </html>
