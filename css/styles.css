@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
-  color: #333;
+  color: var(--secondray-color);
 }
 
 h1,
@@ -27,6 +27,57 @@ p {
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
+}
+
+a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p.name-header {
+  color: var(--secondray-color);
+  opacity: 80%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0;
+}
+
+p.name-header-small {
+  color: var(--secondray-color);
+  opacity: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+nav li.active a {
+  font-weight: bold;
+}
+
+nav a {
+  transition: all 200ms ease-in-out;
 }
 
 .hero {
@@ -67,6 +118,7 @@ p {
 }
 
 .content h3 {
+  text-align: center;
   font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 1.5;
@@ -77,10 +129,10 @@ p {
   font-size: 16px;
 }
 
-.content img {
+img {
   width: 380px;
   border-radius: 4px;
-  margin-left: 80px;
+  margin: 120px 80px;
 }
 
 .btn-branding {
@@ -105,13 +157,65 @@ p {
   padding: 120px 30px;
 }
 
+footer {
+  background-color: #211f19;
+  max-width: 100%;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.contact-box {
+  color: #fff;
+  background-color: #959188;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+footer .email-link {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  margin: 40px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer .social-links a {
+  color: #fff;
+  background-color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--branding-color);
+  background-color: #fff;
+}
+
 @media (max-width: 960px) {
   h2 {
     font-size: 38px;
   }
 
+  nav a {
+    font-size: 14px;
+  }
+
   .hero {
-    padding: 80px 20px;
+    padding: 110px 20px;
   }
 
   .hero h1 {
