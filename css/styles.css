@@ -205,6 +205,11 @@ footer .social-links a:hover {
   background-color: #fff;
 }
 
+.footer-paragragh {
+  color: var(--secondray-color);
+  opacity: 60%;
+}
+
 @media (max-width: 960px) {
   h2 {
     font-size: 38px;
