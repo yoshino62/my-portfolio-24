@@ -144,6 +144,12 @@ img {
   padding: 15px 20px;
 }
 
+.btn-branding:hover {
+  color: var(--branding-color);
+  background-color: #fff;
+  border: 1px solid var(--branding-color);
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -153,29 +159,31 @@ img {
   padding: 15px 20px;
 }
 
+.btn-branding-outline:hover {
+  color: #fff;
+  background-color: var(--branding-color);
+}
+
 .project-description {
   padding: 120px 30px;
 }
 
 footer {
   background-color: #211f19;
+  display: flex;
+  justify-content: space-around;
   max-width: 100%;
   margin: 20px 0;
-  padding: 10px 0;
+  padding: 40px 0;
 }
 
-.contact-box {
+footer h3 {
   color: #fff;
-  background-color: #959188;
-  padding: 15px 20px;
-  border-radius: 4px;
+  font-size: 26ox;
 }
 
 footer .email-link {
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   margin: 40px;
 }
 
@@ -185,24 +193,17 @@ footer .email-link:hover {
 
 footer .social-links {
   color: #fff;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
 }
 
 footer .social-links a {
-  color: #fff;
-  background-color: var(--branding-color);
-  font-size: 18px;
+  color: var(--branding-color);
+  font-size: 28px;
   margin: 0 20px;
-  padding: 10px 15px;
-  border-radius: 50%;
   transition: all 200ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: var(--branding-color);
-  background-color: #fff;
+  color: #fff;
 }
 
 .footer-paragragh {
