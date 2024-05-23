@@ -234,6 +234,10 @@ p.footer-paragragh {
     font-size: 38px;
   }
 
+  nav {
+    padding: 20px 30px;
+  }
+
   nav a {
     font-size: 14px;
   }
