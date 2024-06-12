@@ -112,6 +112,10 @@ a.hero-about-me:hover {
   text-decoration: none;
 }
 
+p.project-intro {
+  font-size: 24px;
+}
+
 .content {
   padding: 120px 80px;
 }
